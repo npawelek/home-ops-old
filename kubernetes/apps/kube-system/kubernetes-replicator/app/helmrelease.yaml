@@ -27,7 +27,7 @@ spec:
     fullnameOverride: *name
     image:
       repository: quay.io/mittwald/kubernetes-replicator
-      tag: v2.10.0@sha256:a5d7246f8ebfc2a9a3ecc3a53c3d5764b952966faf3d5e20f98cc0e49f444c7d
+      tag: v2.10.0@sha256:b79e77d421d0e729c429f489ebacfaa93d3b252ab42ebe1035b1cb984eafb261
     args:
       - -resync-period=5m
     grantClusterAdmin: false
